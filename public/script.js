@@ -33,6 +33,8 @@ function checkFields(event){
         }
     })
 
+    console.log(isEmpty)
+
     if(isEmpty){
         event.preventDefault()
         alert("Por favor preencha todos os campos")
